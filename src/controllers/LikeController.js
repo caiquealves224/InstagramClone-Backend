@@ -4,6 +4,14 @@ module.exports = {
 
     async store(req, res){
         
-        return res.json({ok:true});
+        const post = await Post.findById(req.params.id);
+
+        post.likes++;
+
+        await post.save();
+
+        req.io.emit("like",post);
+
+        return res.json(post);
     }
 }
