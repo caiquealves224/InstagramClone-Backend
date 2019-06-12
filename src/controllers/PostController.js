@@ -1,0 +1,13 @@
+const POs = require("../models/Post");
+
+module.exports = {
+    async index(req, res) {
+
+    },
+
+    async store(req, res){
+        return res.json({
+            ok: true
+        })
+    }
+}
