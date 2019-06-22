@@ -1,5 +1,5 @@
 # InstagramClone-Backend
-Backend/API construida com
+Backend/API Node + Express, projeto clone do Instagram
 
 Aplicação da semana Omnistack 7
 
