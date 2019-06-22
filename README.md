@@ -6,7 +6,7 @@ Aplicação da semana Omnistack 7
 Backend/API para rodar uma aplicação clone do Instagram, esse repositório é necessario para rodar o Front-end (**ReactJS**) e o 
 App Mobile (**ReactNative**)
 
-### Dependencias :
+## Dependencias :
 
 - **Yarn** : gerenciador de dependencias
 - **ExpressJS** : Para servidor http/rotas;
@@ -15,6 +15,6 @@ App Mobile (**ReactNative**)
 - **mongoose** :
 - **socket.io** :
 
-### Dependecias de desenvolvimento : 
+## Dependecias de desenvolvimento : 
 
 - **nodemon** :
